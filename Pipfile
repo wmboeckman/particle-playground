@@ -1,0 +1,16 @@
+[[source]]
+name = "pypi"
+url = "https://pypi.org/simple"
+verify_ssl = true
+
+[dev-packages]
+
+[packages]
+glfw = "~=2.0.0"
+scipy = "~=1.5.4"
+PyOpenGL = "~=3.1.5"
+numpy = "==1.19.3"
+coloredlogs = "*"
+
+[requires]
+python_version = "3.8"
